@@ -12,10 +12,10 @@
 
 ## API's
 
-### POST/user (Add)
-### PUT/user/:userId (Update)
-### GET/user/:userId (Get)
-### DELETE/:userId (Delete)
+- POST/user (Add)
+- PUT/user/:userId (Update)
+- GET/user/:userId (Get)
+- DELETE/:userId (Delete)
 
 ## User Model
 
