@@ -3,7 +3,7 @@
 ### Overview
 In this Application, I have created a Simply CRUD Operations API for User. There is 4 differnt API, One is for create the User, Second for Update, Third one for Get and Fourth for deleteing the data. In this Application i used Node.js, MongoDB, Express and Mongoose.
 
-- Softwre and Package Requirement
+## Softwre and Package Requirement
 
 1. Node.js
 2. MongoDB
