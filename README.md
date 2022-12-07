@@ -10,6 +10,15 @@ In this Application, I have created a Simply CRUD Operations API for User. There
 3. Express
 4. Mongoose
 
+## Installation
+
+1. Clone the repository
+2. Change the directory to "iNeuron-Assignment"
+3. Run "npm i"
+4. Run "npm start"
+5. Run "http://localhost/doc" in browser
+6. Then, Test all API
+
 ## User Model
 
 ```yaml
