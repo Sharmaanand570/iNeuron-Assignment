@@ -6,6 +6,9 @@ const createUser = async function(req, res){
         if(Object.keys(userData).length==0){
             return res.status(400).send({status:false, message:"userData is required"});
         }
+        if(Object.keys(userData).length<4 || Object.keys(userData).length>4){
+            return res.status(400).send({status:false, message:"All userData is required"});
+        }
         const findUser = await userModel.findOne({$or:[{email:userData.email}, {phone:userData.phone}]})
         if(findUser){
             return res.status(400).send({status:false, message:"email or phone is already present"});
